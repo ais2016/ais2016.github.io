@@ -3,3 +3,4 @@
 [1. Сетевые настройки](_posts/2016-2-17-Networking.md)  
 [2. Файрвол и NAT](_posts/2016-2-24-Firewall.md)  
 [3. HTTP-сервер](_posts/2016-3-2-HTTP.md)  
+[4. DNS-сервер](_posts/2016-3-16-DNS.md)
