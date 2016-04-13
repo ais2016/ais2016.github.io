@@ -6,7 +6,7 @@
 [4. DNS-сервер](_posts/2016-3-16-DNS.md)  
 [5. Почтовый сервер](_posts/20162016-4-13-WSH2.md)
 
-[6. Windows Scripting Host](_posts/2016-4-6-Windows-Scripting-Host.md)
+[6. Windows Scripting Host](_posts/2016-4-6-Windows-Scripting-Host.md)  
 [7. Windows Scripting Host](_posts/2016-4-13-WSH2.md)
 
 [Задания на допуск к экзамену](_posts/2016-4-13-Tasks.md)
