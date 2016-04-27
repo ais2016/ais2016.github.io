@@ -7,8 +7,8 @@
 [5. Почтовый сервер](_posts/20162016-4-13-WSH2.md)
 
 [6. Windows Scripting Host](_posts/2016-4-6-Windows-Scripting-Host.md)  
-[7. Windows Scripting Host #2](_posts/2016-4-13-WSH2.md)
-[8. Windows Management Instrumentation](_posts/2016-04-20-Windows-Management-Instrumentation.md)
+[7. Windows Scripting Host #2](_posts/2016-4-13-WSH2.md)  
+[8. Windows Management Instrumentation](_posts/2016-04-20-Windows-Management-Instrumentation.md)  
 [9. Windows Management Instrumentation: WQL и события](_posts/2016-4-27-WMI-Events.md)
 
 [Задания на допуск к экзамену](_posts/2016-4-13-Tasks.md)
