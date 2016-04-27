@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WMI: события
+title: WMI - события
 ---
 
 # WMI: события
