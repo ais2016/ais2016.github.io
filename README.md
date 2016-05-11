@@ -11,4 +11,6 @@
 [8. Windows Management Instrumentation](_posts/2016-04-20-Windows-Management-Instrumentation.md)  
 [9. Windows Management Instrumentation: WQL и события](_posts/2016-4-27-WMI-Events.md)
 
+[10. SQL-сервер и его использование](_posts/2016-5-11-SQL.md)
+
 [Задания на допуск к экзамену](_posts/2016-4-13-Tasks.md)
