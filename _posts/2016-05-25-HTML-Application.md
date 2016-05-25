@@ -25,16 +25,58 @@ title: Приложения HTML
 			contextMenu="yes"
 			selection="yes" 
 			version="1.0" />
+		<style>
+			th, td { 
+				padding: 2px 10px 2px 10px;
+			}
+		
+			table, td, tr, th { 
+				border: solid 1px black; 
+				border-collapse: collapse;
+			}
+		</style>
 	</head>
 	<body>
 		<script>
 			function a()
 			{
-				var wshShell = new ActiveXObject("WScript.Shell");
-				wshShell.Run("notepad.exe");
+				var table = document.getElementById("processTable");
+				for (var i = 0; i < 5; i++)
+				{
+					var child = document.createElement("tr");
+					var td1 = document.createElement("td");
+					var td2 = document.createElement("td");
+					var td3 = document.createElement("td");
+					var btn = document.createElement("input");
+					
+					td1.innerHTML = "abc";
+					td2.innerHTML = "cde";
+					td2.innerHTML = "def";
+					
+					btn.type = "button";
+					btn.value = "Kill!";
+					btn.onclick = function() { alert("Hello, world"); };
+					
+					child.appendChild(td1);
+					child.appendChild(td2);
+					child.appendChild(td3);
+					td3.appendChild(btn);
+					table.appendChild(child);
+				}
 			}
 		</script>
-		<input type="button" onclick="a()" value="Press me">
+		<table cellspacing="0" cellpadding="0">
+			<thead>
+				<tr>
+					<th>PID</th>
+					<th>Title</th>
+					<th>&nbsp;</th>
+				</tr>
+			</thead>
+			<tbody id="processTable">
+			</tbody>
+		</table>
+
 	</body>
 </html>
 ```
